@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-transparent sticky-top">
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="build/assets/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
@@ -218,18 +218,7 @@
 
 
 
-<script>
-  window.addEventListener('scroll', function() {
-    var navbar = document.querySelector('.navbar.navbar-expand-lg');
-    if (window.scrollY > document.getElementById('carouselExampleIndicators').offsetHeight) {
-      navbar.classList.remove('bg-light');
-      navbar.classList.add('navbar-dark');
-    } else {
-      navbar.classList.remove('navbar-dark');
-      navbar.classList.add('bg-light');
-    }
-  });
-</script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
