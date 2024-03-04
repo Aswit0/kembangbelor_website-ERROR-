@@ -18,11 +18,11 @@ Route::get('/', function () {
     return view('public/home');
 });
 
-Route::get('/kritik', function () {
+Route::get('home/kritik', function () {
     return view('public/kritik');
 });
 
-Route::get('/360', function () {
+Route::get('home/360', function () {
     return view('public/360');
 });
 

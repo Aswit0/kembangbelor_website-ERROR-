@@ -9,7 +9,10 @@
 </head>
 <body>
 
-<div class="container">
+  @include('layouts\navbar')
+
+<div class="container text-center mt-4">
+  <h2>Upload 360</h2>
   <div class="row justify-content-center mt-5">
     <div class="col-md-6">
       <form>
@@ -44,6 +47,8 @@
     fileLabel.textContent = fileNameList.join(', ');
   });
 </script>
+
+@include('layouts\footer')
 
 </body>
 </html>

@@ -6,32 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="build/assets/style.css">
+    <link rel="stylesheet" href="build/style/home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="build/assets/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
-      </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Wisata</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Kritik dan Saran</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">360</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+  @include('layouts\navbar')
 
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -188,36 +170,11 @@
   </div>
 </div>
 
+@include('layouts\footer')
 
-<footer class="container-fluid py-4 footer-container">
-  <div class="container text-center">
-      <ul class="nav justify-content-center">
-        <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Wisata</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Kritik Saran</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">360</a></li>
-      </ul>
-      <ul class="list-inline mb-0">
-        <li class="list-inline-item"><a href="#" class="text-muted" title="Twitter"><i class="bi bi-youtube"></i></a></li>
-        <li class="list-inline-item"><a href="#" class="text-muted" title="Instagram"><i class="bi bi-instagram"></i></a></li>
-        <li class="list-inline-item"><a href="#" class="text-muted" title="Facebook"><i class="bi bi-facebook"></i></a></li>
-      </ul>
-      <hr class="my-4">
-      <p class="text-muted">2024 &copy; Politeknik Negeri Jember</p>
-  </div>
-</footer>
-
-
-
-    
-
-
-
-
-
-
-
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
