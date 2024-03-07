@@ -13,22 +13,24 @@
 
 </head>
 <body>
-    <footer class="container-fluid py-4 footer-container">
-        <div class="container text-center">
-            <ul class="nav justify-content-center">
-              <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Wisata</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Kritik Saran</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">360</a></li>
-            </ul>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item"><a href="#" class="text-muted" title="Twitter"><i class="bi bi-youtube"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="text-muted" title="Instagram"><i class="bi bi-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="text-muted" title="Facebook"><i class="bi bi-facebook"></i></a></li>
-            </ul>
-            <hr class="my-4">
-            <p class="text-muted">2024 &copy; Politeknik Negeri Jember</p>
-        </div>
-      </footer>      
+  <footer class="container-fluid py-4 footer-container">
+    <div class="container text-center">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link active" href="/">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="/">Wisata</a></li>
+            <li class="nav-item"><a class="nav-link" href="/kritik">Kritik Saran</a></li>
+            <li class="nav-item"><a class="nav-link" href="/360">360</a></li>
+        </ul>
+        <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a href="#" class="text-muted" title="Twitter"><i class="bi bi-youtube"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-muted" title="Instagram"><i class="bi bi-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-muted" title="Facebook"><i class="bi bi-facebook"></i></a></li>
+        </ul>
+        <hr class="my-4">
+        <p class="text-muted">2024 &copy; Politeknik Negeri Jember</p>
+    </div>
+</footer>
+
+      
 </body>
 </html>
