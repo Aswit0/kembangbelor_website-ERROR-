@@ -15,22 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('public/home');
-});
-
-Route::get('/kritik', function () {
-    return view('public/kritik');
-});
-
-Route::get('/360', function () {
-    return view('public/360');
-});
-
-
-
-
-Route::get('/wisataAdmin', function () {
-    return view('admin/wisata');
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {
@@ -43,4 +28,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__ . '/auth.php';
+require __DIR__.'/auth.php';
